@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tic Tac Toe" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HL3-Mi-SdK">
+                                <rect key="frame" x="0.0" y="45" width="375" height="47"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="37"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="t0X-zg-ae5">
+                                <rect key="frame" x="67.5" y="148" width="240" height="218"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="CPc-mZ-krb"/>
+                                    <constraint firstAttribute="height" constant="218" id="fnY-wc-1oC"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developed By Lonnie Gerol" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0S-xb-Qqg">
+                                <rect key="frame" x="0.0" y="641.5" width="375" height="25.5"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="18"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27058823529411763" green="0.3529411764705882" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="S0S-xb-Qqg" secondAttribute="trailing" id="AHr-hc-AAj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HL3-Mi-SdK" secondAttribute="trailing" id="G4B-ez-m9G"/>
+                            <constraint firstItem="t0X-zg-ae5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="NRf-E1-Nbi"/>
+                            <constraint firstItem="S0S-xb-Qqg" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Nuh-AK-Beb"/>
+                            <constraint firstItem="t0X-zg-ae5" firstAttribute="top" secondItem="HL3-Mi-SdK" secondAttribute="bottom" constant="56" id="aP2-Y3-Mt1"/>
+                            <constraint firstItem="S0S-xb-Qqg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gqV-gx-KC7"/>
+                            <constraint firstItem="HL3-Mi-SdK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kYD-1f-uMX"/>
+                            <constraint firstItem="HL3-Mi-SdK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="znp-xj-Q26"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon" width="856" height="897"/>
+    </resources>
+</document>
